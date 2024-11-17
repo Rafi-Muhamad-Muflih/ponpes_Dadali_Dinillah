@@ -1,0 +1,39 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+body{
+    /* background-image: url(img/logo\ dadali.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+}
+
+/* navbar */
+
+
+.nav-item a:hover{
+    color: #f4faf7 !important;
+    position: relative;
+    background-color: #191b1a !important;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+/* akhir navbar  */
+
+/* carousel  */
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+/* akhir carousel  */
+
+/* text berjalan */
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .marquee-content {
+    display: inline-block;
+  }
+  /* akhir text berjalan  */
