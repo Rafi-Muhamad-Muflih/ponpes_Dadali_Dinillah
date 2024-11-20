@@ -37,3 +37,31 @@ body{
     display: inline-block;
   }
   /* akhir text berjalan  */
+
+  /* pendaftaran */
+  .text-hubungi{
+    background-color: #f4faf7;
+    border-radius: 5px;
+  }
+  .text-hubungi:hover{
+    background-color: #191b1a;
+    color: #f4faf7;
+    transition: 0.3s;
+  }
+
+  .materi-diujikan:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+  }
+
+
+  .materi-diujikan{
+   height: 540px;
+   width: 350px;
+  }
+
+  .syarat-pendaftaran:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+  }
+  /* akhir pendaftaran */
